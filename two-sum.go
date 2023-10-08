@@ -1,10 +1,9 @@
 package algo
 
+// TwoSum is the brute force version of the solution, reading the array twice, adding the pair and comparing them to target
+// Time complexity: O(n^2)
+// Space complexity: O(1)
 func TwoSum(nums []int, target int) []int {
-    /*
-       Go through every and each element adding pairs to see if we reach target.
-       Remember to avoid using the same index twice
-    */
     var answer []int
     for i := 0; i < len(nums); i++ {
         for j := 0; j < len(nums); j++ {
