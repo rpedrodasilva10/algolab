@@ -31,6 +31,7 @@ func TestIsPalindrome(t *testing.T) {
     for _, tt := range tests {
         t.Run(tt.name, func(t *testing.T) {
             assert.Equalf(t, tt.want, IsPalindrome(tt.inputNum), "IsPalindrome(%v)", tt.inputNum)
+            assert.Equalf(t, tt.want, IsPalindromeOptimized(tt.inputNum), "IsPalindromeOptimized(%v)", tt.inputNum)
         })
     }
 }
