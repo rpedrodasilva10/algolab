@@ -1,4 +1,4 @@
-package algo
+package easy
 
 import (
     "github.com/stretchr/testify/assert"

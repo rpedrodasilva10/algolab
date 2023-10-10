@@ -1,4 +1,4 @@
-package algo
+package easy
 
 // TwoSum is the brute force version of the solution, reading the array twice, adding the pair and comparing them to target
 // Time complexity: O(n^2)
